@@ -2,12 +2,12 @@ Command line:
    blockmemory16kxl_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  46530
+     -socket  41854
 
-Wed Sep 30 19:31:45 2015
+Wed Sep 30 19:50:17 2015
 
 
- Elaboration Time: 0.02 sec
+ Elaboration Time: 0.03 sec
 
  Current Memory Usage: 238.797 Meg
 
@@ -20,9 +20,9 @@ Wed Sep 30 19:31:45 2015
  Total Traceable Variables  : 338
  Total Scalar Nets and Variables : 38358
 
- Total Simulation Time: 0.05 sec
+ Total Simulation Time: 0.06 sec
 
  Current Memory Usage: 314.298 Meg
 
-Wed Sep 30 19:32:35 2015
+Wed Sep 30 19:51:02 2015
 

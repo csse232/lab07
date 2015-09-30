@@ -37,47 +37,37 @@
     <transform xil_pn:end_ts="1443653964" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1443653964">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1443655902" xil_pn:in_ck="-2656417143920501229" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1443655902">
+    <transform xil_pn:end_ts="1443657013" xil_pn:in_ck="-6437134534061261528" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1443657013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../blockmemory16kxl_tb.v"/>
+      <outfile xil_pn:name="../schematictest.v"/>
     </transform>
     <transform xil_pn:end_ts="1443655077" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="436653976400159455" xil_pn:start_ts="1443655077">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1443655077" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1454811168591767007" xil_pn:start_ts="1443655077">
+    <transform xil_pn:end_ts="1443657013" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1454811168591767007" xil_pn:start_ts="1443657013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1443653964" xil_pn:in_ck="7650336507326006817" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6840738781429592643" xil_pn:start_ts="1443653964">
+    <transform xil_pn:end_ts="1443657013" xil_pn:in_ck="7650336507326006817" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6840738781429592643" xil_pn:start_ts="1443657013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../ipcore_dir/blockmemory16kxl.ngc"/>
       <outfile xil_pn:name="../ipcore_dir/blockmemory16kxl.v"/>
     </transform>
-    <transform xil_pn:end_ts="1443655902" xil_pn:in_ck="3512748737218763808" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1443655902">
+    <transform xil_pn:end_ts="1443657013" xil_pn:in_ck="-762574848717477995" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1443657013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../blockmemory16kxl_tb.v"/>
       <outfile xil_pn:name="../ipcore_dir/blockmemory16kxl.v"/>
+      <outfile xil_pn:name="../schematictest.v"/>
     </transform>
-    <transform xil_pn:end_ts="1443655903" xil_pn:in_ck="3512748737218763808" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1640873715165226022" xil_pn:start_ts="1443655902">
+    <transform xil_pn:end_ts="1443657015" xil_pn:in_ck="-762574848717477995" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1640873715165226022" xil_pn:start_ts="1443657013">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="blockmemory16kxl_tb_beh.prj"/>
       <outfile xil_pn:name="blockmemory16kxl_tb_isim_beh.exe"/>
@@ -86,10 +76,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1443655904" xil_pn:in_ck="-6548491540271439536" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6579826830945827209" xil_pn:start_ts="1443655903">
+    <transform xil_pn:end_ts="1443657015" xil_pn:in_ck="-6548491540271439536" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6579826830945827209" xil_pn:start_ts="1443657015">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="blockmemory16kxl_tb_isim_beh.wdb"/>

@@ -51,9 +51,14 @@ module blockmemory16kxl_tb;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-        
+      clka = 1;
+		#100;
+		clka = 0;
+		addra = 3;
+		
+		#100;
+		clka = 1;
 		// Add stimulus here
-		douta = dina;
 	end
       
 endmodule
