@@ -1,0 +1,3 @@
+MODULE something
+	SUBMODULE blockmemory16kxl
+		INSTANCE XLXI_2

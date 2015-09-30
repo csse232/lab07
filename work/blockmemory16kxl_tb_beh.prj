@@ -1,0 +1,3 @@
+verilog work "../ipcore_dir/blockmemory16kxl.v"
+verilog work "../blockmemory16kxl_tb.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

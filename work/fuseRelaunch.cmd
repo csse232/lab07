@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/griseous/memory/work/blockmemory16kxl_tb_isim_beh.exe" -prj "/home/griseous/memory/work/blockmemory16kxl_tb_beh.prj" "work.blockmemory16kxl_tb" "work.glbl" 

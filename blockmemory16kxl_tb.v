@@ -25,13 +25,13 @@
 module blockmemory16kxl_tb;
 
 	// Inputs
-	reg clka;
-	reg [0:0] wea;
-	reg [9:0] addra;
-	reg [15:0] dina;
+	reg clka; //clock
+	reg [0:0] wea; //write enable line
+	reg [9:0] addra; //address to read from/written to
+	reg [15:0] dina; //data in
 
 	// Outputs
-	wire [15:0] douta;
+	wire [15:0] douta; //data out
 
 	// Instantiate the Unit Under Test (UUT)
 	blockmemory16kxl uut (
@@ -45,15 +45,15 @@ module blockmemory16kxl_tb;
 	initial begin
 		// Initialize Inputs
 		clka = 0;
-		wea = 0;
-		addra = 0;
-		dina = 0;
+		wea = 'b0;
+		addra = 'h1;
+		dina = 'h0000;
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
-
+		douta = dina;
 	end
       
 endmodule
