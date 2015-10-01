@@ -16,7 +16,7 @@ module MIPS_control_unit (ALUSrc,
    output   MemtoReg;
    output   RegDst;
    output   RegWrite;
-   output   MemRead;
+   output   MemRead; //assuming this is regread
    output   MemWrite;
    output   Branch;
    
@@ -51,13 +51,37 @@ module MIPS_control_unit (ALUSrc,
           4:
             begin
                //Set the controls here
+					$display("beq");
+               ALUSrc = 0;
+               //MemtoReg = 0;
+               //RegDst = 1;
+               RegWrite = 0;
+               MemRead = 0;
+               MemWrite = 0;
+               Branch = 1;
             end
           35:
             begin
                //Set the controls here
+					$display("lw");
+               ALUSrc = 1;
+               MemtoReg = 1;
+               RegDst = 0;
+               RegWrite = 1;
+               MemRead = 1; 
+               MemWrite = 0;
+               Branch = 0;
             end
           43:
             begin 
+					$display("sw");
+               ALUSrc = 1;
+               //MemtoReg = 0; //doesn't matter
+               //RegDst = 1;
+               RegWrite = 0;
+               MemRead = 1;
+               MemWrite = 1;
+               Branch = 0;
                //Set the controls here
             end
           default:
