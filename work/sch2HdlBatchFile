@@ -1,0 +1,1 @@
+sch2hdl,-sympath,/home/griseous/memory/ipcore_dir,-sympath,/home/griseous/memory/work,-intstyle,ise,-family,spartan3e,-verilog,/home/griseous/memory/work/component_schematic.vf,-w,/home/griseous/memory/component_schematic.sch

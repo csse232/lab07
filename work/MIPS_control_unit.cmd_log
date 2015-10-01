@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "/home/griseous/memory/work/MIPS_control_unit.xst" -ofn "/home/griseous/memory/work/MIPS_control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 MIPS_control_unit.ngc MIPS_control_unit.ngd  
+vhdtdtfi -lib work /home/griseous/memory/BlockMemoryControl.v -lang verilog -prj memory -o MIPS_control_unit.spl -module MIPS_control_unit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MIPS_control_unit.spl /home/griseous/memory/MIPS_control_unit.sym 
+vhdtdtfi -lib work /home/griseous/memory/BlockMemoryControl.v -lang verilog -prj memory -o MIPS_control_unit.spl -module MIPS_control_unit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MIPS_control_unit.spl /home/griseous/memory/MIPS_control_unit.sym 
+vhdtdtfi -lib work /home/griseous/memory/BlockMemoryControl.v -lang verilog -prj memory -o MIPS_control_unit.spl -module MIPS_control_unit -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w MIPS_control_unit.spl /home/griseous/memory/MIPS_control_unit.sym 

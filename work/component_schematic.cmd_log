@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym component_schematic /home/griseous/memory/component_schematic.sch /home/griseous/memory/component_schematic.sym 

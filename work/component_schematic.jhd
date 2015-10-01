@@ -1,0 +1,5 @@
+MODULE component_schematic
+	SUBMODULE blockmemory16kxl
+		INSTANCE XLXI_2
+	SUBMODULE MIPS_control_unit
+		INSTANCE XLXI_11

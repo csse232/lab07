@@ -1,0 +1,61 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : component_schematic.vf
+// /___/   /\     Timestamp : 09/30/2015 20:45:55
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath /home/griseous/memory/ipcore_dir -sympath /home/griseous/memory/work -intstyle ise -family spartan3e -verilog /home/griseous/memory/work/component_schematic.vf -w /home/griseous/memory/component_schematic.sch
+//Design Name: component_schematic
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module component_schematic(addra, 
+                           clk, 
+                           ALUSrc, 
+                           Branch, 
+                           douta, 
+                           MemRead, 
+                           MemtoReg, 
+                           MemWrite, 
+                           RegDst, 
+                           RegWrite);
+
+    input [9:0] addra;
+    input clk;
+   output ALUSrc;
+   output Branch;
+   output [15:0] douta;
+   output MemRead;
+   output MemtoReg;
+   output MemWrite;
+   output RegDst;
+   output RegWrite;
+   
+   
+   blockmemory16kxl  XLXI_2 (.addra(addra[9:0]), 
+                            .clka(clk), 
+                            .dina(), 
+                            .wea(), 
+                            .douta(douta[15:0]));
+   MIPS_control_unit  XLXI_11 (.CLK(clk), 
+                              .Opcode(), 
+                              .Reset(), 
+                              .ALUSrc(ALUSrc), 
+                              .Branch(Branch), 
+                              .MemRead(MemRead), 
+                              .MemtoReg(MemtoReg), 
+                              .MemWrite(MemWrite), 
+                              .RegDst(RegDst), 
+                              .RegWrite(RegWrite));
+endmodule

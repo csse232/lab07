@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/griseous/memory/work/blockmemory16kxl_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/griseous/memory/work/blockmemory16kxl_tb_isim_beh.wdb 
+Running: /home/griseous/memory/work/component_schematic_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/griseous/memory/work/component_schematic_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@clive.csse.rose-hulman.edu'.
@@ -21,6 +21,6 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
  Block Memory Generator CORE Generator module loading initial data...
  Block Memory Generator data initialization complete.
-Block Memory Generator CORE Generator module blockmemory16kxl_tb.uut.inst.\native_mem_module.blk_mem_gen_v6_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module component_schematic.XLXI_2.inst.\native_mem_module.blk_mem_gen_v6_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Finished circuit initialization process.
 # exit 0
